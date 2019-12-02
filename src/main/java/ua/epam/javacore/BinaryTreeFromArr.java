@@ -2,13 +2,6 @@ package ua.epam.javacore;
 
 public class BinaryTreeFromArr {
 
-    public static void main(String[] args) {
-        int[] arr = {1,2,3,4};
-        Node n = new Node();
-        Node b = createTree(arr,n,0);
-        printTree(b);
-    }
-
     private Node root;
 
      static class Node {
